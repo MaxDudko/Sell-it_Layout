@@ -54,17 +54,15 @@
 }
 
 
-@media screen and (max-width: 576px) {   
-    .content {
-        width: 100%;
-        background: url(../img/b-ground.jpg);
-    }
+@media screen and (max-width: 576px) {  
     .content__left-section {
         display: none;
     }
     .content__right-section {
         width: 100%;
         overflow: hidden;
+        background: url(../img/b-ground.jpg) no-repeat;
+        background-size: 100% 100%;
     }
     .right-section__logo {
        display: none;
